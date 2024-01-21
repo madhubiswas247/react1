@@ -4,11 +4,17 @@ import FunctionBased from "./components/FunctionBased";
 import ClassBased from "./components/ClassBased";
 import CreateElementDemo from "./components/CreateElementDemo";
 import TemplateStructureDemo from "./components/TemplateStructureDemo";
+import WithoutUseStateDemo from "./components/WithoutUseStateDemo";
+import UseStateDemo from "./components/UseStateDemo";
+import UseStateProblemDemo from "./components/UseStateProblem";
 
 function App() {
   return (
     <div className="App">
-      <TemplateStructureDemo />
+      <UseStateProblemDemo />
+      {/* <UseStateDemo /> */}
+      {/* <WithoutUseStateDemo /> */}
+      {/* <TemplateStructureDemo /> */}
       {/* <FunctionBased/> */}
       {/* <ClassBased /> */}
       {/* <CreateElementDemo /> */}
