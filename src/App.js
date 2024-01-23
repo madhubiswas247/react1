@@ -7,11 +7,23 @@ import TemplateStructureDemo from "./components/TemplateStructureDemo";
 import WithoutUseStateDemo from "./components/WithoutUseStateDemo";
 import UseStateDemo from "./components/UseStateDemo";
 import UseStateProblemDemo from "./components/UseStateProblem";
+import PropsParent from "./components/PropsParent";
+import UseStateArray from "./components/UseStateArray";
+import ConditionalDemo from "./components/ConditionalDemo";
+import ModuleCSSDemo from "./components/ModuleCSSDemo";
+import UseStateDemo1 from "./components/practice/UseStateDemo1";
+import TaskList from "./components/simpleTask/TaskList";
 
 function App() {
   return (
     <div className="App">
-      <UseStateProblemDemo />
+      <TaskList />
+      {/* <UseStateDemo1 /> */}
+      {/* <ModuleCSSDemo/> */}
+      {/* <ConditionalDemo/> */}
+      {/* <UseStateArray /> */}
+      {/* <PropsParent /> */}
+      {/* <UseStateProblemDemo /> */}
       {/* <UseStateDemo /> */}
       {/* <WithoutUseStateDemo /> */}
       {/* <TemplateStructureDemo /> */}
