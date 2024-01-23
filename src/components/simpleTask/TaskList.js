@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./Header";
 import TaskCard from "./TaskCard";
 import BoxCard from "./BoxCard";
+import AddTask from "./AddTask";
 
 const TaskList = () => {
   const headerLink = "Home";
@@ -25,6 +26,7 @@ const TaskList = () => {
   return (
     <div>
       <Header headerMenu={headerLink} />
+      <AddTask/>
       <h1>Displaying Tasks:-</h1>
       <button onClick={() => setShow(!show)}>Show Tasks</button>
       <ul>

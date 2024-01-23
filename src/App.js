@@ -13,10 +13,12 @@ import ConditionalDemo from "./components/ConditionalDemo";
 import ModuleCSSDemo from "./components/ModuleCSSDemo";
 import UseStateDemo1 from "./components/practice/UseStateDemo1";
 import TaskList from "./components/simpleTask/TaskList";
+import PropDrillingComp1 from "./components/PropDrillingComp1";
 
 function App() {
   return (
     <div className="App">
+      {/* <PropDrillingComp1 /> */}
       <TaskList />
       {/* <UseStateDemo1 /> */}
       {/* <ModuleCSSDemo/> */}
