@@ -4,14 +4,14 @@ import TaskCard from "./TaskCard";
 import BoxCard from "./BoxCard";
 import AddTask from "./AddTask";
 
-const TaskList = () => {
-  const headerLink = "Home";
-  let [tasks, setTasks] = useState([
-    { id: 1, task: "Exercise", isComplete: true },
-    { id: 2, task: "Painting", isComplete: true },
-    { id: 3, task: "Walking", isComplete: false },
-  ]);
-  let [show, setShow] = useState(false);
+const TaskList = ({tasks, setTasks}) => {
+  
+  // let [tasks, setTasks] = useState([
+  //   { id: 1, task: "Exercise", isComplete: true },
+  //   { id: 2, task: "Painting", isComplete: true },
+  //   { id: 3, task: "Walking", isComplete: false },
+  // ]);
+  let [show, setShow] = useState(true);
 
   const addTask = () => {
     const newTask = { id: 4, task: "Running", isComplete: false };
@@ -24,9 +24,8 @@ const TaskList = () => {
   };
 
   return (
-    <div>
-      <Header headerMenu={headerLink} />
-      <AddTask/>
+    <section>
+   
       <h1>Displaying Tasks:-</h1>
       <button onClick={() => setShow(!show)}>Show Tasks</button>
       <ul>
@@ -36,7 +35,7 @@ const TaskList = () => {
               key={task.id}
               task={task}
               handleDelete={handleDelete}
-              addTask={addTask}
+              // addTask={addTask}
             />
           ))}
       </ul>
@@ -49,7 +48,7 @@ const TaskList = () => {
         <p className="title">Hello Warning</p>
         <p className="description">This is the description of warning</p>
       </BoxCard>
-    </div>
+    </section>
   );
 };
 

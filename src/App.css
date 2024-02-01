@@ -110,3 +110,10 @@ li {
   margin-right: 40%;
   margin-left: 40%;
 }
+
+.main {
+  min-width: 90vh;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}

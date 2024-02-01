@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const BoxCard = ({ result, children, buttonName }) => {
   let [show, setShow] = useState(false);
   return (
-    <div>
+    <section>
       {show && (
         <div className={`box ${result}`}>
           BoxCard
@@ -11,7 +11,7 @@ const BoxCard = ({ result, children, buttonName }) => {
         </div>
       )}
       <button onClick={() => setShow(!show)}>{buttonName}</button>
-    </div>
+    </section>
   );
 };
 

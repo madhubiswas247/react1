@@ -7,9 +7,9 @@ const TaskCard = ({ task, handleDelete, addTask }) => {
       <span className="pr">
         {task.id}-{task.task}
       </span>
-      <button className="add" onClick={addTask}>
+      {/* <button className="add" onClick={addTask}>
         Add
-      </button>
+      </button> */}
       <button
         className="delete"
         onClick={() => {

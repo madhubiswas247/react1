@@ -4,7 +4,7 @@ import Logo from "../../logo.svg";
 const Header = (props) => {
 
   return (
-    <header style={{ backgroundColor: "black", height: "32px" }}>
+    <header style={{ backgroundColor: "black", height: "32px" , padding:"15px"}}>
       <img style={{ width: "22px" }} src={Logo} alt=""></img>
       <a style={{ color: "aquamarine" }} href="/">
         {props.headerMenu}

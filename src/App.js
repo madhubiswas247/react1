@@ -14,12 +14,19 @@ import ModuleCSSDemo from "./components/ModuleCSSDemo";
 import UseStateDemo1 from "./components/practice/UseStateDemo1";
 import TaskList from "./components/simpleTask/TaskList";
 import PropDrillingComp1 from "./components/PropDrillingComp1";
+import TaskHome from "./components/simpleTask/TaskHome";
+import UseRefHook from "./components/hooks/UseRefHook";
+import UseRefHook1 from "./components/hooks/UseRefHook1";
+import ShoppingMain from "./components/shoppingProj/ShoppingMain";
 
 function App() {
   return (
     <div className="App">
+      <ShoppingMain/>
+      {/* <UseRefHook1/> */}
+      {/* <UseRefHook/> */}
       {/* <PropDrillingComp1 /> */}
-      <TaskList />
+      {/* <TaskHome /> */}
       {/* <UseStateDemo1 /> */}
       {/* <ModuleCSSDemo/> */}
       {/* <ConditionalDemo/> */}
