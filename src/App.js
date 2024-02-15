@@ -18,10 +18,12 @@ import TaskHome from "./components/simpleTask/TaskHome";
 import UseRefHook from "./components/hooks/UseRefHook";
 import UseRefHook1 from "./components/hooks/UseRefHook1";
 import ShoppingMain from "./components/shoppingProj/ShoppingMain";
+import UseEffectDemo from "./components/hooks/UseEffectDemo";
 
 function App() {
   return (
     <div className="App">
+      {/* <UseEffectDemo/> */}
       <ShoppingMain/>
       {/* <UseRefHook1/> */}
       {/* <UseRefHook/> */}
